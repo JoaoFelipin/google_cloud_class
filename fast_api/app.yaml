@@ -1,3 +1,0 @@
-service: fast-api
-runtime: python38
-entrypoint: gunicorn -k uvicorn.workers.UvicornWorker main:app
